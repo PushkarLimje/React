@@ -13,7 +13,7 @@ function App() {
   const [isCorrect, setIsCorrect] = useState(true);
 
 
-  const sentence = "The "
+  const sentence = "The sun rises.The sun rises in the east every morning. She enjoys reading books in her free time. Birds fly high in the clear blue sky. We should always speak the truth. Learning something new every day keeps the mind sharp."
   
   const checkWord = () => {
   if (input.trim() === sentence.trim()) {
