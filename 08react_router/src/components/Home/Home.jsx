@@ -8,7 +8,7 @@ function Home() {
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
                             Download Now
-                            <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
+                            <span className="hidden sm:block text-4xl">Click Here !!!</span>
                         </h2>
 
                         <Link
@@ -31,15 +31,16 @@ function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                    <img className="w-96" src="https://d3h2k7ug3o5pb3.cloudfront.net/image/2021-11-26/39d24c20-4ea0-11ec-803b-87314da1e02e.png" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+                <img className="sm:w-96 w-48 h-64" src="https://img.freepik.com/premium-vector/cartoon-vector-white-background_889056-149518.jpg" alt="image2" />
             </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
+            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Welcome to our platform!
+Discover tools, features, and support to help you grow, learn, and succeed.</h1>
         </div>
     )
 }

@@ -9,6 +9,10 @@ import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
 import Github, { gitubInfoLoader } from './components/Github/Github.jsx'
+import Terms from './components/Terms/Terms.jsx'
+import Policy from './components/Terms/Policy.jsx'
+import Login from './components/Login/Login.jsx'
+import GetStarted from './components/Login/GetStarted.jsx'
 
 // const router = createBrowserRouter([
 //   {
@@ -41,8 +45,13 @@ const router = createBrowserRouter(
         {/* in the place of /:userid it takes the data from backend */}
         <Route
          loader = { gitubInfoLoader }
+        //  USE  loader to fetch the data before the page is rendered 
          path='github' 
          element={<Github/>} />
+         <Route path='terms' element={<Terms/>}></Route>
+         <Route path='policy' element={<Policy/>}></Route>
+         <Route path='login' element={<Login/>}></Route>
+         <Route path='getstarted' element={<GetStarted/>}></Route>
     </Route>
   )
 )

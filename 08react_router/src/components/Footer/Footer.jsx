@@ -54,12 +54,12 @@ function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="/policy" className="hover:underline">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="/terms" className="hover:underline">
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
@@ -70,9 +70,9 @@ function Footer() {
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
-                        © 2023
+                        © 2025
                         <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                            PushkarLimje
                         </a>
                         . All Rights Reserved.
                     </span>

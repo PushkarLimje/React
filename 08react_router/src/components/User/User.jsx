@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
+// use param is use yo fetch data from website link  where ( :userid/:age ) is given 
 function User() {
     const {userid, age } = useParams()
     
