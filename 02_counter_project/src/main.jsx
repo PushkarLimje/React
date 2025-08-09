@@ -8,8 +8,11 @@ import Component1 from './Component1.jsx'
 
 
 
-ReactDOM.createRoot(document.getElementById('root'))
+createRoot(document.getElementById('root'))
 .render(
-    // <Android />
-    <Component1/>
+    <>
+    {/* <App /> */}
+    <Android />
+     {/* <Component1/> */}
+    </>
 )
