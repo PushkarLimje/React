@@ -33,7 +33,7 @@ function Todos() {
                  {editId === todo.id ? (
                             <button
                                 onClick={() => {
-                                    dispatch(updateTodo({ id: editId, text: editText }));
+                                    dispatch(upadateTodo({ id: editId, text: editText }));
                                     setEditId(null);
                                     setEditText('');
                                 }}
