@@ -5,7 +5,7 @@ import {useDispatch} from 'react-redux'
 function Addtodo() {
 
     const [input,setInput] = useState('')
-    const dispatch = useDispatch();  //creates the displatch
+    const dispatch = useDispatch();  //creates the dispatch
 
     const addTodoHandler = (e) => {
         e.preventDefault()
